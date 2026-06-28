@@ -1,10 +1,10 @@
 # MC504 – Implementação das syscalls `set_secret` e `get_secret`
 
-Este repositório contém os arquivos modificados para a implementação das chamadas de sistema **`set_secret`** (472) e **`get_secret`** (473), além do programa de teste utilizado para validação.
+Este repositório contém os arquivos modificados para a implementação das chamadas de sistema `set_secret` (472) e `get_secret` (473), além do programa de teste utilizado para validação.
 
 ## Funcionalidade
 
-Foi implementado um **cofre de segredo** no kernel Linux. A syscall `set_secret` armazena uma string em um buffer global protegido por mutex, enquanto `get_secret` recupera esse conteúdo para o espaço de usuário.
+Foi implementado um cofre de segredo no kernel Linux. A syscall `set_secret` armazena uma string em um buffer global protegido por mutex, enquanto `get_secret` recupera esse conteúdo para o espaço de usuário.
 
 ## Arquivos modificados
 
@@ -44,4 +44,4 @@ Dentro da máquina virtual, execute:
 cd /root && ./test_secret
 ```
 
-Para encerrar o QEMU, pressione **Ctrl+A** seguido de **X**.
+Para encerrar o QEMU, pressione Ctrl+A seguido de X.
