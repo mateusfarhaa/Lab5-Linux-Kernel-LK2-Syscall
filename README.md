@@ -41,8 +41,7 @@ qemu-system-x86_64 \
 Dentro da máquina virtual, execute:
 
 ```bash
-cd /root
-./test_secret
+cd /root && ./test_secret
 ```
 
 Para encerrar o QEMU, pressione **Ctrl+A** seguido de **X**.
